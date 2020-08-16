@@ -1,0 +1,15 @@
+11:55:05 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+
+11:55:06 Build Finished (took 902ms)
+

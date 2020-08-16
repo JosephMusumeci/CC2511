@@ -1,0 +1,268 @@
+16:00:23 **** Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/pin_mux.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/System" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/PDD" -I"C:/Users/jmu09/workspace.kds/Lab1/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jmu09/workspace.kds/Lab1/Sources" -I"C:/Users/jmu09/workspace.kds/Lab1/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+Finished building: ../Generated_Code/pin_mux.c
+ 
+Building target: Lab1.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jmu09/workspace.kds/Lab1/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/workspace.kds/Lab1/Project_Settings/Linker_Files" -Wl,-Map,"Lab1.map" -specs=nano.specs -specs=nosys.specs -o "Lab1.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/pin_mux.o   
+Finished building target: Lab1.elf
+ 
+16:02:05 **** Clean-only build of configuration Debug for project Lab1_Warmup ****
+make clean 
+rm -rf  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o  ./Sources/main.d  ./Project_Settings/Startup_Code/system_MK22F51212.d  ./Project_Settings/Startup_Code/startup_MK22F51212.d  Lab1_Warmup.elf
+ 
+16:02:05 **** Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup_MK22F51212.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Project_Settings/Startup_Code/startup_MK22F51212.d" -MT"Project_Settings/Startup_Code/startup_MK22F51212.o" -c -o "Project_Settings/Startup_Code/startup_MK22F51212.o" "../Project_Settings/Startup_Code/startup_MK22F51212.S"
+Finished building: ../Project_Settings/Startup_Code/startup_MK22F51212.S
+ 
+Building file: ../Project_Settings/Startup_Code/system_MK22F51212.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MK22F51212.d" -MT"Project_Settings/Startup_Code/system_MK22F51212.o" -c -o "Project_Settings/Startup_Code/system_MK22F51212.o" "../Project_Settings/Startup_Code/system_MK22F51212.c"
+Finished building: ../Project_Settings/Startup_Code/system_MK22F51212.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+16:03:15 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:33 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+13:08:02 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:27 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:29 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:59 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+10:54:51 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+10:55:00 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+10:57:16 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:54 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:27:49 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+In file included from ../Sources/main.c:31:0:
+../Sources/main.c: In function 'clear_labels':
+../Includes/MK22F51212.h:5264:50: error: called object is not a function or function pointer
+ #define GPIO_PDDR_REG(base)                      ((base)->PDDR)
+                                                  ^
+../Includes/MK22F51212.h:5364:50: note: in expansion of macro 'GPIO_PDDR_REG'
+ #define GPIOA_PDDR                               GPIO_PDDR_REG(PTA)
+                                                  ^
+../Sources/main.c:46:2: note: in expansion of macro 'GPIOA_PDDR'
+  GPIOA_PDDR = (1 << 2)
+  ^
+../Includes/MK22F51212.h:5264:50: error: called object is not a function or function pointer
+ #define GPIO_PDDR_REG(base)                      ((base)->PDDR)
+                                                  ^
+../Includes/MK22F51212.h:5385:50: note: in expansion of macro 'GPIO_PDDR_REG'
+ #define GPIOD_PDDR                               GPIO_PDDR_REG(PTD)
+                                                  ^
+../Sources/main.c:47:2: note: in expansion of macro 'GPIOD_PDDR'
+  GPIOD_PDDR = (1 << 5)
+  ^
+../Sources/main.c:48:1: error: expected ';' before '}' token
+ }
+ ^
+../Sources/main.c: In function 'main':
+../Sources/main.c:72:3: warning: implicit declaration of function 'clear_leds' [-Wimplicit-function-declaration]
+   clear_leds();
+   ^
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+11:29:31 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+In file included from ../Sources/main.c:31:0:
+../Sources/main.c: In function 'clear_leds':
+../Includes/MK22F51212.h:5264:50: error: called object is not a function or function pointer
+ #define GPIO_PDDR_REG(base)                      ((base)->PDDR)
+                                                  ^
+../Includes/MK22F51212.h:5364:50: note: in expansion of macro 'GPIO_PDDR_REG'
+ #define GPIOA_PDDR                               GPIO_PDDR_REG(PTA)
+                                                  ^
+../Sources/main.c:46:2: note: in expansion of macro 'GPIOA_PDDR'
+  GPIOA_PDDR = (1 << 2)
+  ^
+../Includes/MK22F51212.h:5264:50: error: called object is not a function or function pointer
+ #define GPIO_PDDR_REG(base)                      ((base)->PDDR)
+                                                  ^
+../Includes/MK22F51212.h:5385:50: note: in expansion of macro 'GPIO_PDDR_REG'
+ #define GPIOD_PDDR                               GPIO_PDDR_REG(PTD)
+                                                  ^
+../Sources/main.c:47:2: note: in expansion of macro 'GPIOD_PDDR'
+  GPIOD_PDDR = (1 << 5)
+  ^
+../Sources/main.c:48:1: error: expected ';' before '}' token
+ }
+ ^
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+11:30:32 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:31:37 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:12 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:34:16 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:38:08 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:42:08 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:44:02 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:46:40 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:47:44 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+make: Nothing to be done for 'all'.
+11:48:36 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
+11:55:05 **** Incremental Build of configuration Debug for project Lab1_Warmup ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab1_Warmup.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: Lab1_Warmup.elf
+ 
