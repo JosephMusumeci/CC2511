@@ -29,37 +29,89 @@
  */
 
 #include "MK22F51212.h"
+#include <stdbool.h>
 
 static int i = 0;
+
+void wait(int t) {
+	int counter;
+	for (counter = 0; counter < t; counter++) {
+		// waste time using the "no-operation" assembly instruction
+		__asm volatile ("nop");
+	}
+}
+
+void clear_leds() {
+	GPIOA_PSOR = (1 << 1);
+	GPIOA_PSOR = (1 << 2);
+	GPIOD_PSOR = (1 << 5);
+}
 
 int main(void)
 {
 	// Enable the clock for the port control module
-	SIM->SCGC5 |= SIM_SCGC5_PORTA_MASK | SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTD_MASK | SIM_SCGC5_PORTE_MASK;
+	// SIM->SCGC5 |= SIM_SCGC5_PORTA_MASK | SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTD_MASK | SIM_SCGC5_PORTE_MASK;
+	SIM->SCGC5 = 0x3e00;
 
 	// Initialise the red LED
 	PORTA->PCR[1] = 0x100; // Select GPIO mode
-	GPIOA_PDDR = (1 << 1); // set PTA1 to output
+	GPIOA_PDDR = GPIOA_PDDR | (1 << 1); // set PTA1 to output
 
-	// Disable the others
-	PORTA->PCR[2] = 0; // green
-	PORTD->PCR[5] = 0; // blue
+	// Initialise the green LED
+	PORTA->PCR[2] = 0x100; // Select GPIO mode
+	GPIOA_PDDR = GPIOA_PDDR | (1 << 2); // set PTA2 to output
+
+	// Initialise the blue LED
+	PORTD->PCR[5] = 0x100; // Select GPIO mode
+	GPIOD_PDDR = GPIOD_PDDR | (1 << 5); // set PTD5 to output
+
 
 	// Flash the LED
 	int counter;
 	for (;;) {
-		GPIOA_PDOR = 0;
-		for (counter = 0; counter < 1000000; counter++) {
-			// waste time by using the "no-operation" assembly code instruction
-			__asm volatile ("nop");
-		}
-		GPIOA_PDOR = (1 << 1);
-		for (counter = 0; counter < 1000000; counter++) {
-			// waste time by using the "no-operation" assembly code instruction
-			__asm volatile ("nop");
-		}
+
+		clear_leds();
+
+		GPIOA_PCOR = (1 << 1); // flash red
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOA_PCOR = (1 << 2); // flash green
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOD_PCOR = (1 << 5); // flash blue
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOA_PCOR = (1 << 1); // flash red
+		GPIOD_PCOR = (1 << 5); // flash blue
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOA_PCOR = (1 << 1); // flash red
+		GPIOA_PCOR = (1 << 2); // flash green
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOD_PCOR = (1 << 5); // flash blue
+		GPIOA_PCOR = (1 << 2); // flash green
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
+
+		GPIOA_PCOR = (1 << 1); // flash red
+		GPIOD_PCOR = (1 << 5); // flash blue
+		GPIOA_PCOR = (1 << 2); // flash green
+		wait(1000000);
+		clear_leds();
+		wait(1000000);
 	}
-    return 0;
 }
 ////////////////////////////////////////////////////////////////////////////////
 // EOF

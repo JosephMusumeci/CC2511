@@ -51,7 +51,7 @@ all: Lab1_Warmup.elf secondary-outputs
 Lab1_Warmup.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jc162301/Dropbox/Teaching/2017/CC2511/Shared folder/Labs/Lab-Solutions-K22F/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jmu09/Documents/GitHub/CC2511/Lab1_Warmup/Project_Settings/Linker_Files" -Wl,-Map,"Lab1_Warmup.map" -specs=nano.specs -specs=nosys.specs -o "Lab1_Warmup.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
