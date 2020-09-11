@@ -1,10 +1,10 @@
 /* ###################################################################
 **     Filename    : main.c
-**     Project     : lab5.1
+**     Project     : lab5.2
 **     Processor   : MK22FN512VDC12
 **     Version     : Driver 01.01
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2020-09-03, 13:15, # CodeGen: 0
+**     Date/Time   : 2020-09-03, 13:51, # CodeGen: 0
 **     Abstract    :
 **         Main module.
 **         This module contains user's application code.
@@ -31,10 +31,13 @@
 #include "Cpu.h"
 #include "Events.h"
 #include "Pins1.h"
-#include "Wire.h"
-#include "BitIoLdd1.h"
-#include "BLUE.h"
-#include "BitIoLdd2.h"
+#include "AS1.h"
+#include "ASerialLdd1.h"
+#include "PWMRed.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
+#include "PWMGreen.h"
+#include "PwmLdd2.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
@@ -42,34 +45,94 @@
 #include "IO_Map.h"
 #include "PDD_Includes.h"
 #include "Init_Config.h"
-/* User includes (#include below this line is not maintained by Processor Expert) */
+#include "string.h"
+#include <stdio.h>
+#include <stddef.h>
+#include <stdint.h>
+
+void send_string(const char *str) {
+	size_t len, i; // a size_t is an unsigned integer
+	len = strlen(str); // returns the number of chars in str
+	byte err;
+	for (i = 0; i < len; i++) {
+		// send this character
+		do {
+			err = AS1_SendChar(str[i]);
+		} while (err != ERR_OK);
+	}
+}
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
 /*lint -restore Enable MISRA rule (6.3) checking. */
 {
-  /* Write your local variable definition here */
+	/* Write your local variable definition here */
+	char c;
+	byte err;
+	byte redRatio;
+	byte greenRatio;
+	char str[80];
+	/*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
+	PE_low_level_init();
+	/*** End of Processor Expert internal initialization.                    ***/
+	AS1_Enable();
+	//Green_NegVal();
+	/* Write your code here */
+	/* For example: for(;;) { } */
+	PWMRed_SetRatio8(0);
+	PWMGreen_SetRatio8(0);
 
-  /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
-  PE_low_level_init();
-  /*** End of Processor Expert internal initialization.                    ***/
+	for (;;) {
+		do {
+			err = AS1_RecvChar(&c); // component name = AS1
+		} while (err != ERR_OK);
 
-  /* Write your code here */
-  /* For example: for(;;) { } */
+		switch (c) {
+		case 'r':
+			if (redRatio < 11) {
+				redRatio = 0;
+			} else {
+				redRatio -= 10;
+			}
+			sprintf(str, "Set red to: %d \r\n", redRatio);
+			send_string(str);
+			break;
 
-  /* reads the digital input from your
-  chosen pin and displays the result using the blue LED. If the pin
-  reads as high, then turn the blue LED on, and if it reads as low,
-  then turn the LED off. */
+		case 'R':
+			if (redRatio > 244) {
+				redRatio = 255;
+			} else {
+				redRatio += 10;
+			}
+			sprintf(str, "Set red to: %d \r\n", redRatio);
+			send_string(str);
+			break;
 
-  for(;;)
-  {
-	  if (Wire_GetVal()) // if receive signal from Pin PTB19
-		  BLUE_SetVal();
-	  else( /* Otherwise no signal from Pin PTB19 */
-		  BLUE_ClrVal());
+		case 'g':
+			if (greenRatio < 11) {
+				greenRatio = 0;
+			} else {
+				greenRatio -= 10;
+			}
+			sprintf(str, "Set green to: %d \r\n", greenRatio);
+			send_string(str);
+			break;
 
-  }
+		case 'G':
+			if (greenRatio > 244) {
+				greenRatio = 255;
+			} else {
+				greenRatio += 10;
+			}
+			sprintf(str, "Set green to: %d \r\n", greenRatio);
+			send_string(str);
+			break;
+		}
+
+		PWMGreen_SetRatio8(greenRatio);
+		PWMRed_SetRatio8(redRatio);
+	}
+  // yep
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
