@@ -1,0 +1,1141 @@
+Archive member included because of file (symbol)
+
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+SR_reg              0x1               ./Static_Code/System/CPU_Init.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/CPU_Init.o
+ .text          0x00000000        0x0 ./Static_Code/System/CPU_Init.o
+ .data          0x00000000        0x0 ./Static_Code/System/CPU_Init.o
+ .bss           0x00000000        0x0 ./Static_Code/System/CPU_Init.o
+ .bss.SR_lock   0x00000000        0x1 ./Static_Code/System/CPU_Init.o
+ .bss.ClockConfigurationID
+                0x00000000        0x1 ./Static_Code/System/CPU_Init.o
+ .text.CPU_SetClockConfiguration
+                0x00000000      0x1d0 ./Static_Code/System/CPU_Init.o
+ .text.CPU_GetClockConfiguration
+                0x00000000       0x18 ./Static_Code/System/CPU_Init.o
+ COMMON         0x00000000        0x1 ./Static_Code/System/CPU_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Peripherals_Init.o
+ .text          0x00000000        0x0 ./Static_Code/System/Peripherals_Init.o
+ .data          0x00000000        0x0 ./Static_Code/System/Peripherals_Init.o
+ .bss           0x00000000        0x0 ./Static_Code/System/Peripherals_Init.o
+ .text.Peripherals_Init
+                0x00000000        0xc ./Static_Code/System/Peripherals_Init.o
+ .debug_info    0x00000000       0x96 ./Static_Code/System/Peripherals_Init.o
+ .debug_abbrev  0x00000000       0x45 ./Static_Code/System/Peripherals_Init.o
+ .debug_aranges
+                0x00000000       0x20 ./Static_Code/System/Peripherals_Init.o
+ .debug_ranges  0x00000000       0x10 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000       0x82 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000      0x850 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000       0x16 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000       0x44 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000      0x209 ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000     0x176e ./Static_Code/System/Peripherals_Init.o
+ .debug_macro   0x00000000      0x7aa ./Static_Code/System/Peripherals_Init.o
+ .debug_line    0x00000000      0x203 ./Static_Code/System/Peripherals_Init.o
+ .debug_str     0x00000000     0xc001 ./Static_Code/System/Peripherals_Init.o
+ .comment       0x00000000       0x71 ./Static_Code/System/Peripherals_Init.o
+ .ARM.attributes
+                0x00000000       0x39 ./Static_Code/System/Peripherals_Init.o
+ .debug_frame   0x00000000       0x28 ./Static_Code/System/Peripherals_Init.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Static_Code/System/Vectors.o
+ .text          0x00000000        0x0 ./Static_Code/System/Vectors.o
+ .data          0x00000000        0x0 ./Static_Code/System/Vectors.o
+ .bss           0x00000000        0x0 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_NMI
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Hard_Fault
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Mem_Manage_Fault
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Bus_Fault
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Usage_Fault
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved7
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved8
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved9
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved10
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_SVCall
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DebugMonitor
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved13
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PendableSrvReq
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_SysTick
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA2
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA3
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA4
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA5
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA6
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA7
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA8
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA9
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA10
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA11
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA12
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA13
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA14
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA15
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DMA_Error
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_MCM
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_FTF
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Read_Collision
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_LVD_LVW
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_LLWU
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_WDOG_EWM
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_RNG
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_I2C0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_I2C1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_SPI0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_SPI1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_I2S0_Tx
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_I2S0_Rx
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_LPUART0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART0_RX_TX
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART0_ERR
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART1_RX_TX
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART1_ERR
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART2_RX_TX
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_UART2_ERR
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved53
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved54
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_ADC0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_CMP0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_CMP1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_FTM0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_FTM1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_FTM2
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved61
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_RTC
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_RTC_Seconds
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PIT0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PIT1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PIT2
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PIT3
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PDB0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_USB0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved70
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved71
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DAC0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_MCG
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_LPTMR0
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PORTA
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PORTB
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PORTC
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PORTD
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_PORTE
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_SWI
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved81
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved82
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved83
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved84
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved85
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved86
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_FTM3
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_DAC1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_ADC1
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved90
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved91
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved92
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved93
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved94
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved95
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved96
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved97
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved98
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved99
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved100
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .text.Unhandled_ivINT_Reserved101
+                0x00000000       0x18 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000      0x850 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x16 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x44 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000      0x209 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000     0x176e ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000      0x7aa ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000      0x14e ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x6a ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000     0xbca7 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x58 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x35 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0xa3 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x16 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000       0x10 ./Static_Code/System/Vectors.o
+ .debug_macro   0x00000000      0x292 ./Static_Code/System/Vectors.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/Events.o
+ .text          0x00000000        0x0 ./Sources/Events.o
+ .data          0x00000000        0x0 ./Sources/Events.o
+ .bss           0x00000000        0x0 ./Sources/Events.o
+ .debug_macro   0x00000000      0x850 ./Sources/Events.o
+ .debug_macro   0x00000000       0x16 ./Sources/Events.o
+ .debug_macro   0x00000000       0x44 ./Sources/Events.o
+ .debug_macro   0x00000000      0x209 ./Sources/Events.o
+ .debug_macro   0x00000000     0x176e ./Sources/Events.o
+ .debug_macro   0x00000000      0x14e ./Sources/Events.o
+ .debug_macro   0x00000000       0x6a ./Sources/Events.o
+ .debug_macro   0x00000000     0xbca7 ./Sources/Events.o
+ .debug_macro   0x00000000       0x58 ./Sources/Events.o
+ .debug_macro   0x00000000       0x35 ./Sources/Events.o
+ .debug_macro   0x00000000       0xa3 ./Sources/Events.o
+ .debug_macro   0x00000000       0x16 ./Sources/Events.o
+ .debug_macro   0x00000000      0x7aa ./Sources/Events.o
+ .debug_macro   0x00000000       0x10 ./Sources/Events.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .debug_macro   0x00000000      0x850 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x44 ./Sources/main.o
+ .debug_macro   0x00000000      0x209 ./Sources/main.o
+ .debug_macro   0x00000000     0x176e ./Sources/main.o
+ .debug_macro   0x00000000      0x14e ./Sources/main.o
+ .debug_macro   0x00000000       0x6a ./Sources/main.o
+ .debug_macro   0x00000000     0xbca7 ./Sources/main.o
+ .debug_macro   0x00000000       0x58 ./Sources/main.o
+ .debug_macro   0x00000000       0x35 ./Sources/main.o
+ .debug_macro   0x00000000       0xa3 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000      0x7aa ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
+ .debug_macro   0x00000000       0x94 ./Sources/main.o
+ .debug_macro   0x00000000      0x616 ./Sources/main.o
+ .debug_macro   0x00000000      0x328 ./Sources/main.o
+ .debug_macro   0x00000000      0x109 ./Sources/main.o
+ .debug_macro   0x00000000      0x17f ./Sources/main.o
+ .debug_macro   0x00000000      0x202 ./Sources/main.o
+ .debug_macro   0x00000000      0x91e ./Sources/main.o
+ .debug_macro   0x00000000       0x9e ./Sources/main.o
+ .debug_macro   0x00000000      0x1f9 ./Sources/main.o
+ .debug_macro   0x00000000      0x39c ./Sources/main.o
+ .debug_macro   0x00000000      0x6a6 ./Sources/main.o
+ .debug_macro   0x00000000      0x132 ./Sources/main.o
+ .debug_macro   0x00000000      0x29c ./Sources/main.o
+ .debug_macro   0x00000000      0x264 ./Sources/main.o
+ .debug_macro   0x00000000      0x25b ./Sources/main.o
+ .debug_macro   0x00000000      0x399 ./Sources/main.o
+ .debug_macro   0x00000000      0x4f1 ./Sources/main.o
+ .debug_macro   0x00000000      0x13f ./Sources/main.o
+ .debug_macro   0x00000000       0x6c ./Sources/main.o
+ .debug_macro   0x00000000      0x30d ./Sources/main.o
+ .debug_macro   0x00000000       0xbb ./Sources/main.o
+ .debug_macro   0x00000000       0xe9 ./Sources/main.o
+ .debug_macro   0x00000000      0x4ea ./Sources/main.o
+ .debug_macro   0x00000000      0x18f ./Sources/main.o
+ .debug_macro   0x00000000       0xea ./Sources/main.o
+ .debug_macro   0x00000000      0x344 ./Sources/main.o
+ .debug_macro   0x00000000      0x824 ./Sources/main.o
+ .debug_macro   0x00000000      0x179 ./Sources/main.o
+ .debug_macro   0x00000000      0x9e2 ./Sources/main.o
+ .debug_macro   0x00000000      0x129 ./Sources/main.o
+ .debug_macro   0x00000000      0x648 ./Sources/main.o
+ .debug_macro   0x00000000       0x81 ./Sources/main.o
+ .debug_macro   0x00000000      0x7bf ./Sources/main.o
+ .debug_macro   0x00000000      0x66f ./Sources/main.o
+ .debug_macro   0x00000000       0x7b ./Sources/main.o
+ .debug_macro   0x00000000      0x182 ./Sources/main.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .text.__init_hardware
+                0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .text.__iar_program_start
+                0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x850 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x58 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x35 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0xa3 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/Cpu.o
+ .text          0x00000000        0x0 ./Generated_Code/Cpu.o
+ .data          0x00000000        0x0 ./Generated_Code/Cpu.o
+ .bss           0x00000000        0x0 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000      0x850 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x16 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x44 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000      0x209 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000     0x176e ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000      0x14e ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x6a ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000     0xbca7 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x58 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x35 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0xa3 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x16 ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000      0x7aa ./Generated_Code/Cpu.o
+ .debug_macro   0x00000000       0x10 ./Generated_Code/Cpu.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/PE_LDD.o
+ .text          0x00000000        0x0 ./Generated_Code/PE_LDD.o
+ .data          0x00000000        0x0 ./Generated_Code/PE_LDD.o
+ .bss           0x00000000        0x0 ./Generated_Code/PE_LDD.o
+ .rodata.PE_CpuClockConfigurations
+                0x00000000       0xc8 ./Generated_Code/PE_LDD.o
+ .text.PE_FillMemory
+                0x00000000       0x24 ./Generated_Code/PE_LDD.o
+ .text.PE_PeripheralUsed
+                0x00000000       0x18 ./Generated_Code/PE_LDD.o
+ .text.LDD_SetClockConfiguration
+                0x00000000       0x14 ./Generated_Code/PE_LDD.o
+ .debug_info    0x00000000      0x215 ./Generated_Code/PE_LDD.o
+ .debug_abbrev  0x00000000       0xf3 ./Generated_Code/PE_LDD.o
+ .debug_aranges
+                0x00000000       0x30 ./Generated_Code/PE_LDD.o
+ .debug_ranges  0x00000000       0x20 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0xfd ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000      0x850 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x16 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x44 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000      0x209 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000     0x176e ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000      0x14e ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x6a ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000      0x7aa ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000     0xbca7 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x58 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x35 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0xa3 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x16 ./Generated_Code/PE_LDD.o
+ .debug_macro   0x00000000       0x10 ./Generated_Code/PE_LDD.o
+ .debug_line    0x00000000      0x319 ./Generated_Code/PE_LDD.o
+ .debug_str     0x00000000    0x4d1d0 ./Generated_Code/PE_LDD.o
+ .comment       0x00000000       0x71 ./Generated_Code/PE_LDD.o
+ .ARM.attributes
+                0x00000000       0x39 ./Generated_Code/PE_LDD.o
+ .debug_frame   0x00000000       0x64 ./Generated_Code/PE_LDD.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .group         0x00000000        0x8 ./Generated_Code/pin_mux.o
+ .text          0x00000000        0x0 ./Generated_Code/pin_mux.o
+ .data          0x00000000        0x0 ./Generated_Code/pin_mux.o
+ .bss           0x00000000        0x0 ./Generated_Code/pin_mux.o
+ .text.pin_mux_hardware_init
+                0x00000000      0x420 ./Generated_Code/pin_mux.o
+ .debug_info    0x00000000      0x64d ./Generated_Code/pin_mux.o
+ .debug_abbrev  0x00000000       0xf1 ./Generated_Code/pin_mux.o
+ .debug_aranges
+                0x00000000       0x20 ./Generated_Code/pin_mux.o
+ .debug_ranges  0x00000000       0x10 ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000       0x8d ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000      0x850 ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000       0x16 ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000       0x44 ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000      0x209 ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000     0x176e ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000      0x7aa ./Generated_Code/pin_mux.o
+ .debug_macro   0x00000000     0xbca7 ./Generated_Code/pin_mux.o
+ .debug_line    0x00000000      0x28e ./Generated_Code/pin_mux.o
+ .debug_str     0x00000000    0x4c75b ./Generated_Code/pin_mux.o
+ .comment       0x00000000       0x71 ./Generated_Code/pin_mux.o
+ .ARM.attributes
+                0x00000000       0x39 ./Generated_Code/pin_mux.o
+ .debug_frame   0x00000000       0x28 ./Generated_Code/pin_mux.o
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .eh_frame      0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .jcr           0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x00000000       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000198         xr
+m_text           0x00000410         0x0007fbf0         xr
+m_data           0x1fff0000         0x00010000         rw
+m_data_20000000  0x20000000         0x00010000         rw
+m_cfmprotrom     0x00000400         0x00000010         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+LOAD ./Static_Code/System/CPU_Init.o
+LOAD ./Static_Code/System/Peripherals_Init.o
+LOAD ./Static_Code/System/Vectors.o
+LOAD ./Sources/Events.o
+LOAD ./Sources/main.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+LOAD ./Generated_Code/Cpu.o
+LOAD ./Generated_Code/PE_LDD.o
+LOAD ./Generated_Code/pin_mux.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
+END GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x20000000                _estack = 0x20000000
+                0x20000000                __SP_INIT = _estack
+                0x20000000                __stack = _estack
+                0x00000000                __heap_size = 0x0
+                0x00000400                __stack_size = 0x400
+
+.interrupts     0x00000000      0x198
+                0x00000000                __vector_table = .
+                0x00000000                . = ALIGN (0x4)
+ *(.vectortable)
+ .vectortable   0x00000000      0x198 ./Static_Code/System/Vectors.o
+                0x00000000                __vect_table
+                0x00000198                . = ALIGN (0x4)
+
+.cfmprotect     0x00000400        0x0
+                0x00000400                . = ALIGN (0x4)
+ *(.cfmconfig)
+                0x00000400                . = ALIGN (0x4)
+
+.text           0x00000410      0xcd8
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x54 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .text          0x00000464       0x74 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x00000464                _start
+                0x00000464                _mainCRTStartup
+ *(.text*)
+ .text.CPU_SetBASEPRI
+                0x000004d8       0x18 ./Static_Code/System/CPU_Init.o
+                0x000004d8                CPU_SetBASEPRI
+ .text.__init_hardware
+                0x000004f0      0x100 ./Static_Code/System/CPU_Init.o
+                0x000004f0                __init_hardware
+ .text.PE_low_level_init
+                0x000005f0       0x44 ./Static_Code/System/CPU_Init.o
+                0x000005f0                PE_low_level_init
+ .text.CPU_GetClockGenMode
+                0x00000634       0x90 ./Static_Code/System/CPU_Init.o
+                0x00000634                CPU_GetClockGenMode
+ .text.CPU_SetClockConfigGenMode
+                0x000006c4      0x54c ./Static_Code/System/CPU_Init.o
+                0x000006c4                CPU_SetClockConfigGenMode
+ .text.UnhandledInterrupt
+                0x00000c10       0x18 ./Static_Code/System/Vectors.o
+                0x00000c10                UnhandledInterrupt
+ .text.Cpu_OnNMI
+                0x00000c28        0xc ./Sources/Events.o
+                0x00000c28                Cpu_OnNMI
+ .text.main     0x00000c34        0xc ./Sources/main.o
+                0x00000c34                main
+ .text.__copy_rom_section
+                0x00000c40       0xe4 ./Project_Settings/Startup_Code/startup.o
+                0x00000c40                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x00000d24       0x9c ./Project_Settings/Startup_Code/startup.o
+                0x00000d24                __copy_rom_sections_to_ram
+ .text.__init_registers
+                0x00000dc0       0x20 ./Project_Settings/Startup_Code/startup.o
+                0x00000dc0                __init_registers
+ .text.__init_user
+                0x00000de0        0xc ./Project_Settings/Startup_Code/startup.o
+                0x00000de0                __init_user
+ .text.__thumb_startup
+                0x00000dec       0x34 ./Project_Settings/Startup_Code/startup.o
+                0x00000dec                __thumb_startup
+ .text.Common_Init
+                0x00000e20       0x98 ./Generated_Code/Cpu.o
+                0x00000e20                Common_Init
+ .text.Cpu_INT_NMIInterrupt
+                0x00000eb8       0x1c ./Generated_Code/Cpu.o
+                0x00000eb8                Cpu_INT_NMIInterrupt
+ .text.exit     0x00000ed4       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+                0x00000ed4                exit
+ .text.__libc_init_array
+                0x00000efc       0x4c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+                0x00000efc                __libc_init_array
+ .text.memset   0x00000f48       0x10 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+                0x00000f48                memset
+ .text._exit    0x00000f58        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                0x00000f58                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.ClockGenModeMatrix
+                0x00000f5c       0x80 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_ClockConfigDescriptors
+                0x00000fdc       0x8c ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultFEI
+                0x00001068        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultFBI
+                0x00001070        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultBLPI
+                0x00001078        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultFEE
+                0x00001080        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultFBE
+                0x00001088        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultBLPE
+                0x00001090        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultPBE
+                0x00001098        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_DefaultPEE
+                0x000010a0        0x8 ./Static_Code/System/CPU_Init.o
+ .rodata.CPU_ClockGenModeRegs
+                0x000010a8       0x20 ./Static_Code/System/CPU_Init.o
+ .rodata.str1.1
+                0x000010c8        0x2 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ *fill*         0x000010ca        0x2 
+ .rodata._global_impure_ptr
+                0x000010cc        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+                0x000010cc                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x000010d0        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ *(.init)
+ .init          0x000010d0        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x000010d0                _init
+ .init          0x000010d4        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.fini)
+ .fini          0x000010dc        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x000010dc                _fini
+ .fini          0x000010e0        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x000010e8                . = ALIGN (0x4)
+                0x000010e8                _etext = .
+
+.vfp11_veneer   0x000010e8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000010e8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000010e8        0x0
+ .iplt          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000010e8        0x8
+                0x000010e8                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000010e8        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x000010f0                __exidx_end = .
+
+.rel.dyn        0x000010f0        0x0
+ .rel.iplt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.ctors          0x000010f0        0x0
+                0x000010f0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x000010f0                __CTOR_END__ = .
+
+.dtors          0x000010f0        0x0
+                0x000010f0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x000010f0                __DTOR_END__ = .
+
+.preinit_array  0x000010f0        0x0
+                0x000010f0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000010f0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000010f0        0x4
+                0x000010f0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000010f0        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+                0x000010f4                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000010f4        0x4
+                0x000010f4                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000010f4        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+                0x000010f8                PROVIDE (__fini_array_end, .)
+                0x000010f8                ___ROM_AT = .
+
+.data           0x1fff0000       0x60 load address 0x000010f8
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x1fff0000       0x60 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+                0x1fff0060                . = ALIGN (0x4)
+                0x1fff0060                _edata = .
+                0x00000060                ___data_size = (_edata - _sdata)
+                0x00001158                ___m_data_20000000_ROMStart = (___ROM_AT + SIZEOF (.data))
+
+.jcr            0x1fff0060        0x0 load address 0x00001158
+ .jcr           0x1fff0060        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.igot.plt       0x1fff0060        0x0 load address 0x00001158
+ .igot.plt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.m_data_20000000
+                0x20000000        0x0 load address 0x00001158
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                ___m_data_20000000_RAMStart = .
+ *(.m_data_20000000)
+                0x20000000                ___m_data_20000000_RAMEnd = .
+                0x20000000                . = ALIGN (0x4)
+                0x00000000                ___m_data_20000000_ROMSize = (___m_data_20000000_RAMEnd - ___m_data_20000000_RAMStart)
+                0x20000000                . = ALIGN (0x4)
+
+.bss            0x1fff0060       0x1c load address 0x00001158
+                0x1fff0060                __START_BSS = .
+                0x1fff0060                PROVIDE (__bss_start__, __START_BSS)
+ *(.bss)
+ .bss           0x1fff0060       0x1c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ *(.bss*)
+ *(COMMON)
+                0x1fff007c                . = ALIGN (0x4)
+                0x1fff007c                __END_BSS = .
+                0x1fff007c                PROVIDE (__bss_end__, __END_BSS)
+                0x00001158                _romp_at = ((___ROM_AT + SIZEOF (.data)) + SIZEOF (.m_data_20000000))
+
+.romp           0x1fff007c       0x24 load address 0x00001158
+                0x00001158                __S_romp = _romp_at
+                0x1fff007c        0x4 LONG 0x10f8 ___ROM_AT
+                0x1fff0080        0x4 LONG 0x1fff0000 _sdata
+                0x1fff0084        0x4 LONG 0x60 ___data_size
+                0x1fff0088        0x4 LONG 0x1158 ___m_data_20000000_ROMStart
+                0x1fff008c        0x4 LONG 0x20000000 ___m_data_20000000_RAMStart
+                0x1fff0090        0x4 LONG 0x0 ___m_data_20000000_ROMSize
+                0x1fff0094        0x4 LONG 0x0
+                0x1fff0098        0x4 LONG 0x0
+                0x1fff009c        0x4 LONG 0x0
+                0x00080000                text_end = (ORIGIN (m_text) + 0x7fbf0)
+                0x0000117c                data_init_end = ((___m_data_20000000_ROMStart + SIZEOF (.m_data_20000000)) + SIZEOF (.romp))
+                0x00000001                ASSERT ((data_init_end <= text_end), region m_text overflowed with text and data)
+
+._user_heap_stack
+                0x1fff00a0      0x400 load address 0x0000117c
+                0x1fff00a0                . = ALIGN (0x4)
+                0x1fff00a0                PROVIDE (end, .)
+                0x1fff00a0                PROVIDE (_end, .)
+                0x1fff00a0                PROVIDE (__end__, .)
+                0x1fff00a0                __heap_addr = .
+                0x1fff00a0                __HeapBase = .
+                0x1fff00a0                . = (. + __heap_size)
+                0x1fff00a0                __HeapLimit = .
+                0x1fff04a0                . = (. + __stack_size)
+ *fill*         0x1fff00a0      0x400 
+                0x1fff04a0                . = ALIGN (0x4)
+
+.ARM.attributes
+                0x00000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000076       0x39 ./Static_Code/System/CPU_Init.o
+ .ARM.attributes
+                0x000000af       0x39 ./Static_Code/System/Vectors.o
+ .ARM.attributes
+                0x000000e8       0x39 ./Sources/Events.o
+ .ARM.attributes
+                0x00000121       0x39 ./Sources/main.o
+ .ARM.attributes
+                0x0000015a       0x39 ./Project_Settings/Startup_Code/startup.o
+ .ARM.attributes
+                0x00000193       0x39 ./Generated_Code/Cpu.o
+ .ARM.attributes
+                0x000001cc       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000200       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000234       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000268       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000029c       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000002d0       0x22 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+OUTPUT(Lab1.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x1c58
+ .debug_info    0x00000000      0xc03 ./Static_Code/System/CPU_Init.o
+ .debug_info    0x00000c03      0x826 ./Static_Code/System/Vectors.o
+ .debug_info    0x00001429       0x96 ./Sources/Events.o
+ .debug_info    0x000014bf       0x9a ./Sources/main.o
+ .debug_info    0x00001559      0x3b0 ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x00001909      0x34f ./Generated_Code/Cpu.o
+
+.debug_abbrev   0x00000000      0x5b5
+ .debug_abbrev  0x00000000      0x1db ./Static_Code/System/CPU_Init.o
+ .debug_abbrev  0x000001db       0xd8 ./Static_Code/System/Vectors.o
+ .debug_abbrev  0x000002b3       0x45 ./Sources/Events.o
+ .debug_abbrev  0x000002f8       0x47 ./Sources/main.o
+ .debug_abbrev  0x0000033f      0x189 ./Project_Settings/Startup_Code/startup.o
+ .debug_abbrev  0x000004c8       0xed ./Generated_Code/Cpu.o
+
+.debug_aranges  0x00000000      0x448
+ .debug_aranges
+                0x00000000       0x50 ./Static_Code/System/CPU_Init.o
+ .debug_aranges
+                0x00000050      0x340 ./Static_Code/System/Vectors.o
+ .debug_aranges
+                0x00000390       0x20 ./Sources/Events.o
+ .debug_aranges
+                0x000003b0       0x20 ./Sources/main.o
+ .debug_aranges
+                0x000003d0       0x50 ./Project_Settings/Startup_Code/startup.o
+ .debug_aranges
+                0x00000420       0x28 ./Generated_Code/Cpu.o
+
+.debug_ranges   0x00000000      0x3e8
+ .debug_ranges  0x00000000       0x40 ./Static_Code/System/CPU_Init.o
+ .debug_ranges  0x00000040      0x330 ./Static_Code/System/Vectors.o
+ .debug_ranges  0x00000370       0x10 ./Sources/Events.o
+ .debug_ranges  0x00000380       0x10 ./Sources/main.o
+ .debug_ranges  0x00000390       0x40 ./Project_Settings/Startup_Code/startup.o
+ .debug_ranges  0x000003d0       0x18 ./Generated_Code/Cpu.o
+
+.debug_macro    0x00000000    0x22d28
+ .debug_macro   0x00000000      0x133 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x00000133      0x850 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x00000983       0x16 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x00000999       0x44 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x000009dd      0x209 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x00000be6     0x176e ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x00002354     0xbca7 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000dffb      0x7aa ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000e7a5      0x14e ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000e8f3       0x6a ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000e95d       0x58 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000e9b5       0x35 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000e9ea       0xa3 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000ea8d       0x16 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000eaa3       0x10 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000eab3      0x292 ./Static_Code/System/CPU_Init.o
+ .debug_macro   0x0000ed45      0x121 ./Static_Code/System/Vectors.o
+ .debug_macro   0x0000ee66      0x265 ./Sources/Events.o
+ .debug_macro   0x0000f0cb       0x94 ./Sources/Events.o
+ .debug_macro   0x0000f15f      0x616 ./Sources/Events.o
+ .debug_macro   0x0000f775      0x328 ./Sources/Events.o
+ .debug_macro   0x0000fa9d      0x109 ./Sources/Events.o
+ .debug_macro   0x0000fba6      0x17f ./Sources/Events.o
+ .debug_macro   0x0000fd25      0x202 ./Sources/Events.o
+ .debug_macro   0x0000ff27      0x91e ./Sources/Events.o
+ .debug_macro   0x00010845       0x9e ./Sources/Events.o
+ .debug_macro   0x000108e3      0x1f9 ./Sources/Events.o
+ .debug_macro   0x00010adc      0x39c ./Sources/Events.o
+ .debug_macro   0x00010e78      0x6a6 ./Sources/Events.o
+ .debug_macro   0x0001151e      0x132 ./Sources/Events.o
+ .debug_macro   0x00011650      0x29c ./Sources/Events.o
+ .debug_macro   0x000118ec      0x264 ./Sources/Events.o
+ .debug_macro   0x00011b50      0x25b ./Sources/Events.o
+ .debug_macro   0x00011dab      0x399 ./Sources/Events.o
+ .debug_macro   0x00012144      0x4f1 ./Sources/Events.o
+ .debug_macro   0x00012635      0x13f ./Sources/Events.o
+ .debug_macro   0x00012774       0x6c ./Sources/Events.o
+ .debug_macro   0x000127e0      0x30d ./Sources/Events.o
+ .debug_macro   0x00012aed       0xbb ./Sources/Events.o
+ .debug_macro   0x00012ba8       0xe9 ./Sources/Events.o
+ .debug_macro   0x00012c91      0x4ea ./Sources/Events.o
+ .debug_macro   0x0001317b      0x18f ./Sources/Events.o
+ .debug_macro   0x0001330a       0xea ./Sources/Events.o
+ .debug_macro   0x000133f4      0x344 ./Sources/Events.o
+ .debug_macro   0x00013738      0x824 ./Sources/Events.o
+ .debug_macro   0x00013f5c      0x179 ./Sources/Events.o
+ .debug_macro   0x000140d5      0x9e2 ./Sources/Events.o
+ .debug_macro   0x00014ab7      0x129 ./Sources/Events.o
+ .debug_macro   0x00014be0      0x648 ./Sources/Events.o
+ .debug_macro   0x00015228       0x81 ./Sources/Events.o
+ .debug_macro   0x000152a9      0x7bf ./Sources/Events.o
+ .debug_macro   0x00015a68      0x66f ./Sources/Events.o
+ .debug_macro   0x000160d7       0x7b ./Sources/Events.o
+ .debug_macro   0x00016152      0x182 ./Sources/Events.o
+ .debug_macro   0x000162d4      0x265 ./Sources/main.o
+ .debug_macro   0x00016539      0x121 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0001665a      0x166 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x000167c0       0x4a ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0001680a       0x52 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0001685c       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016872       0x43 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x000168b5      0x180 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016a35      0x2a6 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016cdb       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016ceb       0x35 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016d20       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016d36       0x22 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016d58       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016d68      0x20f ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00016f77     0xbc9b ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00022c12      0x116 ./Generated_Code/Cpu.o
+
+.debug_line     0x00000000     0x204e
+ .debug_line    0x00000000      0x4fd ./Static_Code/System/CPU_Init.o
+ .debug_line    0x000004fd      0xa29 ./Static_Code/System/Vectors.o
+ .debug_line    0x00000f26      0x503 ./Sources/Events.o
+ .debug_line    0x00001429      0x508 ./Sources/main.o
+ .debug_line    0x00001931      0x3b8 ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x00001ce9      0x365 ./Generated_Code/Cpu.o
+
+.debug_str      0x00000000    0xbbc8a
+ .debug_str     0x00000000    0x4e4c8 ./Static_Code/System/CPU_Init.o
+                              0x4e672 (size before relaxing)
+ .debug_str     0x0004e4c8      0x980 ./Static_Code/System/Vectors.o
+                              0x4ea0c (size before relaxing)
+ .debug_str     0x0004ee48    0x6ac65 ./Sources/Events.o
+                              0xb7eea (size before relaxing)
+ .debug_str     0x000b9aad       0x17 ./Sources/main.o
+                              0xb7ee3 (size before relaxing)
+ .debug_str     0x000b9ac4     0x21a2 ./Project_Settings/Startup_Code/startup.o
+                              0x45bba (size before relaxing)
+ .debug_str     0x000bbc66       0x24 ./Generated_Code/Cpu.o
+                              0x4d18d (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Static_Code/System/CPU_Init.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Static_Code/System/Vectors.o
+ .comment       0x00000000       0x71 ./Sources/Events.o
+ .comment       0x00000000       0x71 ./Sources/main.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/startup.o
+ .comment       0x00000000       0x71 ./Generated_Code/Cpu.o
+
+.debug_frame    0x00000000      0xf78
+ .debug_frame   0x00000000       0xd4 ./Static_Code/System/CPU_Init.o
+ .debug_frame   0x000000d4      0xcb0 ./Static_Code/System/Vectors.o
+ .debug_frame   0x00000d84       0x28 ./Sources/Events.o
+ .debug_frame   0x00000dac       0x2c ./Sources/main.o
+ .debug_frame   0x00000dd8       0xc0 ./Project_Settings/Startup_Code/startup.o
+ .debug_frame   0x00000e98       0x4c ./Generated_Code/Cpu.o
+ .debug_frame   0x00000ee4       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000f0c       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .debug_frame   0x00000f38       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x00000f58       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
